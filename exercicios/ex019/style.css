@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/*   
+    HTML id em CSS é # (só pode ter um id com o mesmo nome)
+    HTMl class em CSS é . (pode ter varias classes com o mesmo nome, mas oq mudar em um, muda no outro com a mesma classe)
+*/
+ 
+body {
+    background-color: #ADBDFF;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+
+h1 {
+    color: #2B2F40;
+}
+
+
+#principal {
+    text-align: center;
+}
+
+h2 {
+    color: #575F80;
+}
+
+p {
+    text-indent: 30px;
+}
+
+.basico {
+    color: red;
+}
+
+.intermediário {
+    color: blue;
+}
+
+.avançado {
+    color: yellow;
+}
+
+.destaque {
+    background-color: #59a766;
+}

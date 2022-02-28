@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="caveira.ico" type="image/x-icon">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: black;
+            font-weight: bold;
+        }
+        .especial::before {
+            content: "➥ ";
+        }
+        .especial::after {
+            content: '↩';
+        }
+        .especial {
+            background-color: rgb(238, 111, 111);
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ol>
+        <li><a href="https://www.youtube.com/channel/UCxDR6MTDb7TTyVdXM9Jg62A" target="_blank" class="ytb, especial">Canal do YouTube</a></li>
+        <li><a href="https://www.linkedin.com/in/victor-a-202a8322a/" target="_blank" class="linkedin, especial">Perfil LinkedIn</a></li>
+        <li><a href="https://twitter.com/srhackerxxx" target="_blank" class="tt, especial">Perfil Twitter</a></li>
+    </ol>
+    
+</body>
+</html>

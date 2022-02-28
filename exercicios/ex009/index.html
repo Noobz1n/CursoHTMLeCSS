@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="caveira.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Listas</h1>
+    <hr>
+    <h2>Listas Ordenadas</h2> <!--Pra fazer em sequencia, tem semantica.-->
+    <ol type="1">
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Tomar banho</li>
+        <li>...</li>
+    </ol>
+    <h2>Listas não ordenadas</h2> <!-- Sem ordem, exemplo uma lista de feira, tbm tem semantica.-->
+    <ul>        <!-- types= disc(padrao), circle(bolinha branca) e square(quadrados)-->
+        <li>Pão</li>
+        <li>Mortadela</li>
+        <li>Café</li>
+        <li>...</li>
+    </ul>
+    <h2>Listas Mistas</h2>
+    <h3>O que pretendo aprender durante o ano:</h3>
+    <ol>
+        <li>Até o meio do ano:
+            <ul type="disc">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </li>
+        <li>Do meio do ano pro final:</li>
+            <ul type="disc">
+                <li>Python</li>
+                <li>PHP</li>
+                <li>Segurança Ofensiva</li>
+                    <ul type="square">
+                        <li>Redes</li>
+                            <ul type="circle">
+                                <li>Modelo OSI</li>
+                                <li>Camadas</li>
+                            </ul>
+                        <li>S.O</li>
+                            <ul type="circle">
+                                <li>Linux</li>
+                                <li>Windows</li>
+                            </ul>
+                        <li>Web Hacking</li>
+                            <ul type="circle">
+                                <li>Bases da Web</li>
+                                <li>Vulnerabilidades/Falhas</li>
+                            </ul>
+                    </ul>
+            </ul>
+    </ol>
+    <h2>Lista de Definições</h2> <!-- Exemplo é um dicionario -->
+    <dl> 
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação do conteúdo do site.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do design do site.</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criação da interação do site.</dd>
+    </dl>
+</body>
+</html>

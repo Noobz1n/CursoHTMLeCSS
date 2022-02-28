@@ -1,0 +1,131 @@
+@charset "UTF-8";
+@font-face {
+    font-family: android;
+    src: url(fontes/idroid.otf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #fdf49c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-image: linear-gradient(to bottom, rgb(109, 196, 109), rgb(15, 66, 15));
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    padding: 15px;
+    margin: auto; 
+}
+header > p {
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+nav {
+    text-align: left;
+}
+nav > a {
+    text-decoration: none;
+    color: rgb(166, 202, 166);
+    margin: 5px;
+}
+nav > a:hover {
+    text-decoration: underline;
+    color: white;
+    background-color: rgba(109, 196, 109, 0.274);
+    border-radius: 5px;
+    transition-duration: 0.2s;
+}
+.android {
+    font-family: android;
+    font-weight: bold;
+    color: rgb(18, 70, 18);
+    text-align: justify;
+}
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+    margin: 30px;
+}
+main > p {
+    padding-left: 15px;
+}
+p {
+    text-indent: 2em;
+    text-align: justify;    
+}
+h1 {
+    text-indent: 10px;
+}
+h2 {
+    text-indent: 20px;
+}
+.ancor-names {
+    background-image: linear-gradient(to right, rgba(23, 155, 23, 0.719), rgba(255, 255, 255, 0.212));
+    font-weight: bold;
+    color: green;
+    text-decoration: none;
+}
+.ancor-names::after {
+    content: "📎";
+}
+#p-h1 {
+    text-align: center;
+}
+#bugdroid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.boldandgreen {
+    font-weight: bold;
+    color: rgb(27, 90, 27);
+}
+#listas {
+    background-color: rgb(33, 80, 33);
+}
+#titlelista {
+    color: white;
+    text-indent: 10px;
+    font-size: 18px;
+    margin-bottom: auto;
+}
+#bg-lista {
+    background-color: lightgreen;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0px 3px 4px 1px rgb(0 0 0 / 55%)
+}
+.pmargin {
+    margin-top: auto;
+}
+.list {
+    position: relative;
+}
+.list li {
+    display: inline-flexbox;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
+footer > p {
+    margin: 0px;
+    text-align: center;
+}
