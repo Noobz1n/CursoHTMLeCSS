@@ -1,0 +1,11 @@
+body {
+    background-image: url(https://images3.alphacoders.com/198/thumbbig-198979.webp);
+    background-size: 100px 100px;
+    background-repeat: repeat;       /* repeat é o padrão. */
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
