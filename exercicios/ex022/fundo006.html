@@ -9,16 +9,27 @@
 </head>
 <style>
     body {
+    /*
         height: 97vh;
         background-color: black;
         background-image: url(/exercicios/ex022/imagens/wallpaper002.jpg);
         background-position: center top;
         background-repeat: no-repeat;
-        background-size: cover;   /* o 'contain' ele mostra a imagem 100%, porém, ele vai tentar se adaptar ao tamanho da tela, e o cover  ele faz corte na imagem, porém preenche 100% da tela. */
+        background-size: cover;    o 'contain' ele mostra a imagem 100%, porém, ele vai tentar se adaptar ao tamanho da tela, e o cover  ele faz corte na imagem, porém preenche 100% da tela. 
+        background-attachment: fixed;   /* Uma boa combinação, o background-size: cover; + o background-attachment: fixed;
+        
+
+            Shorthand - Background 
+            color > image > position > repeat > size (ainda n esta funcionando) > attachment
+        
+    */
+        height: 97vh;
+        background: black url(/exercicios/ex022/imagens/wallpaper002.jpg) center top no-repeat fixed;
+        background-size: cover;
     }
     main {
         background-color: white;
-        width: 400px;
+        max-width: 700px;
         padding: 10px;
         margin: auto;
         border: 1px solid darkblue;
@@ -28,7 +39,9 @@
 <body>
     <main>
         <h1>Teste</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut itaque numquam ea totam maiores blanditiis veritatis qui distinctio! Iste architecto cupiditate ab aspernatur perspiciatis pariatur error labore beatae officia facere!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut itaque numquam ea totam maiores blanditiis veritatis qui distinctio! Iste architecto cupiditate ab aspernatur perspiciatis pariatur error labore beatae officia facere! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quas ducimus voluptatibus a totam ut doloremque labore odio adipisci, consequuntur quos vero laborum aliquid nam blanditiis libero quaerat ipsa eos! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut itaque numquam ea totam maiores blanditiis veritatis qui distinctio! Iste architecto cupiditate ab aspernatur perspiciatis pariatur error labore beatae officia facere! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quas ducimus voluptatibus a totam ut doloremque labore odio adipisci, consequuntur quos vero laborum aliquid nam blanditiis libero quaerat ipsa eos! 
+        </p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut itaque numquam ea totam maiores blanditiis veritatis qui distinctio! Iste architecto cupiditate ab aspernatur perspiciatis pariatur error labore beatae officia facere! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quas ducimus voluptatibus a totam ut doloremque labore odio adipisci, consequuntur quos vero laborum aliquid nam blanditiis libero quaerat ipsa eos! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut itaque numquam ea totam maiores blanditiis veritatis qui distinctio! Iste architecto cupiditate ab aspernatur perspiciatis pariatur error labore beatae officia facere! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quas ducimus voluptatibus a totam ut doloremque labore odio adipisci, consequuntur quos vero laborum aliquid nam blanditiis libero quaerat ipsa eos! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut itaque numquam ea totam maiores blanditiis veritatis qui distinctio! Iste architecto cupiditate ab aspernatur perspiciatis pariatur error labore beatae officia facere! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quas ducimus voluptatibus a totam ut doloremque labore odio adipisci, consequuntur quos vero laborum aliquid nam blanditiis libero quaerat ipsa eos! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut itaque numquam ea totam maiores blanditiis veritatis qui distinctio! Iste architecto cupiditate ab aspernatur perspiciatis pariatur error labore beatae officia facere! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quas ducimus voluptatibus a totam ut doloremque labore odio adipisci, consequuntur quos vero laborum aliquid nam blanditiis libero quaerat ipsa eos! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut itaque numquam ea totam maiores blanditiis veritatis qui distinctio! Iste architecto cupiditate ab aspernatur perspiciatis pariatur error labore beatae officia facere! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quas ducimus voluptatibus a totam ut doloremque labore odio adipisci, consequuntur quos vero laborum aliquid nam blanditiis libero quaerat ipsa eos! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut itaque numquam ea totam maiores blanditiis veritatis qui distinctio! Iste architecto cupiditate ab aspernatur perspiciatis pariatur error labore beatae officia facere! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quas ducimus voluptatibus a totam ut doloremque labore odio adipisci, consequuntur quos vero laborum aliquid nam blanditiis libero quaerat ipsa eos!Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut itaque numquam ea totam maiores blanditiis veritatis qui distinctio! Iste architecto cupiditate ab aspernatur perspiciatis pariatur error labore beatae officia facere! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quas ducimus voluptatibus a totam ut doloremque labore odio adipisci, consequuntur quos vero laborum aliquid nam blanditiis libero quaerat ipsa eos!</p>
     </main>
     
 </body>
