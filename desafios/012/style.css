@@ -18,7 +18,7 @@
 
 html, body {
     min-height: 100vh;
-    background-color: darkgray;
+    background-color: white;
     font-family: var(--fonte1);
 }
 
@@ -43,4 +43,50 @@ a {
     text-decoration: none;
     color: white;
     font-weight: bold;
+}
+
+section {
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
+    color: black;
+    padding-left: 8vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.joaninha {
+    background-image: url(/desafios/012/imagens/background001.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+.joaninha > p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.514);
+    padding: 6px;
+}
+
+#livro {
+    background-image: url(/desafios/012/imagens/background002.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#livro > p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.514);
+    padding: 6px;
+    color: white;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 7px;
+}
+
+footer > a:hover {
+    text-decoration: underline;
 }
