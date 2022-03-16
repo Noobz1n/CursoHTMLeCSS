@@ -56,7 +56,7 @@ section {
 }
 
 .joaninha {
-    background-image: url(/../desafios/012/imagens/background001.jpg);
+    background-image: url(/CursoHTMLeCSS/desafios/012/imagens/background001.jpg);
     background-size: cover;
     background-attachment: fixed;
     color: white;
@@ -69,7 +69,7 @@ section {
 }
 
 #livro {
-    background-image: url(/../desafios/012/imagens/background002.jpg);
+    background-image: url(/CursoHTMLeCSS/desafios/012/imagens/background002.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
