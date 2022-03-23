@@ -21,8 +21,16 @@
             background-color: gray;
             color: white;
         }
+        tbody > tr:nth-child(even) {
+            background-color: lightgray;
+        }
         .num {
             text-align: right;
+        }
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
         }
     </style>
 </head>
@@ -32,6 +40,7 @@
     <!-- 
         Anatomia para tabela grande
         Table
+            CAPTION
             THEAD
                 TR, TD, TH
             TBODY
@@ -41,10 +50,11 @@
     -->
 
     <table>
+        <caption>População dos Estados</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
 
         </thead>
@@ -160,7 +170,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="num"><strong>213.317.639</strong></td>
             </tr>
         </tfoot>
