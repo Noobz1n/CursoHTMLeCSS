@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aulas Tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        caption {
+            font-weight: bolder;
+            font-size: 1.3em;
+        }
+        table {
+            border-collapse: collapse;
+            width: 300px;
+            text-align: center;
+        }
+        thead > tr {
+            background-color: #FC2D61;
+            color: #A0FC3A;
+        }
+        th, td {
+            border: 1px black solid;
+            padding: 10px;
+        }
+        .bg-verde {
+            background-color: #0EB081;
+            color: white;
+            font-weight: bold;
+        }
+        .tabela {
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <table class="tabela">
+        <caption>Aulas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Dias</th>
+                <th>Matéria</th>
+                <th>Sala</th>
+                <th>Bloco</th>
+                <th>Horário</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="bg-verde">
+                <td>Segunda</td>
+                <td>Segurança da informação</td>
+                <td>9</td>
+                <td>C</td>
+                <td>18:30 ~ 20:20</td>
+            </tr>
+            <tr class="bg-verde">
+                <td>Terça</td>
+                <td>Programação em C</td>
+                <td>46</td>
+                <td>A</td>
+                <td>18:30 ~ 20:20</td>
+            </tr>
+            <tr class="bg-verde">
+                <td>Quarta</td>
+                <td>Redes</td>
+                <td>9</td>
+                <td>C</td>
+                <td>18:30 ~ 20:20</td>
+            </tr>
+            <tr class="bg-verde">
+                <td>Sexta</td>
+                <td>Arquitetura de Computadores</td>
+                <td>9</td>
+                <td>C</td>
+                <td>18:30 ~ 20:20</td>
+            </tr>
+
+        </tbody>
+    </table>
+    
+</body>
+</html>
